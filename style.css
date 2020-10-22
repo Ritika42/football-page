@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #9013fe;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-color: white;
+    height: 65vh;
+    width: 700px;
+    padding: 50px;
+    border-radius: 20px;
+}
+.row {
+    display: flex;  
+    justify-content: space-around;
+}
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    margin: 20px 0;
+    font-size: x-large;
+    font-weight: 500;
+    
+}
+
+.profile-icon {
+    border: 2px solid bisque;
+    border-radius: 50%;
+}
+
+.score {
+    margin: 0 20px;
+    font-size: xx-large;
+}
+
+.score > span {
+    padding: 3px;
+}
+
+.strike-socre {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin: 0 3px;
+}
+
+button {
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    font-size: large;
+    background: linear-gradient(150deg,#c02425,#f0cb35);
+    color: white;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#strike-btn {
+    width: 300px;
+}

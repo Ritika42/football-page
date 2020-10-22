@@ -10,38 +10,46 @@
 
 <body>
     <div class="container">
-        
+
         <div class="row">
             <div class="col">
-                <img src="images/Real_Madrid_CF.svg.png" alt="Real_Madrid_CF" width="150px">
-                <div>0</div>
-                <div>1</div>
-                <div>1</div>
-                <div>0</div>
-                <div>1</div>
-            </div>
-            <div class="col">
-                <div>
-                    <span>3</span>
-                    <span>-</span>
-                    <span>3</span>
+                <img class="profile-icon" src="images/Real_Madrid_CF.svg.png" alt="Real_Madrid_CF" width="150px" height="150px">
+
+                <span class="name" id="team-1-name">Real Madrid</span>
+
+                <div class="row strike" id="team-1-strike">
+                    <span class="col strike-socre"></span>
+                    <span class="col strike-socre"></span>
+                    <span class="col strike-socre"></span>
+                    <span class="col strike-socre"></span>
+                    <span class="col strike-socre"></span>
+                    <span class="col strike-socre"></span>
                 </div>
             </div>
             <div class="col">
-                <img src="images/S_D_Huesca.svg.png" alt="S_D_Huesca" width="150px">
-                <div>0</div>
-                <div>1</div>
-                <div>1</div>
-                <div>0</div>
-                <div>1</div>
+                <div class="row score">
+                    <span id="team-1-score">0</span>
+                    <span>-</span>
+                    <span id="team-2-score">0</span>
+                </div>
+            </div>
+            <div class="col">
+                <img class="profile-icon" src="images/S_D_Huesca.svg.png" alt="S_D_Huesca" width="150px" height="150px">
+                <span  class="name" id="team-2-name">Huesca</span>
+                <div class="row strike" id="team-1-strike">
+                    <span class="col strike-socre"></span>
+                    <span class="col strike-socre"></span>
+                    <span class="col strike-socre"></span>
+                    <span class="col strike-socre"></span>
+                    <span class="col strike-socre"></span>
+                    <span class="col strike-socre"></span>
+                </div>
             </div>
         </div>
-        
+
         <div class="row">
-            <div class="col">
-                <button>Try Again</button>
-                <button></button>
-            </div>
+            <button id="try-again">Try Again</button>
+            <button id="strike-btn">Huesca Strike</button>
         </div>
 
     </div>
